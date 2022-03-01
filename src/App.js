@@ -37,6 +37,8 @@ class App extends React.Component {
       }
 
       // let water = 1.5;
+      // water = max(0, 25 - 20) => max(0, 5) -> 5 * 0.02;
+      // water = max(0, 15 - 20) => max(0, -5) ->  0 * 0.02 = 0
       // water += Math.max(0, this.state.temperature - 20) * 0.02;
       // water += Math.max(0, this.state.steps - 10_000) * 0.0008;
       // water += Math.max(0, this.state.heart - 120) * 0.00_002;
